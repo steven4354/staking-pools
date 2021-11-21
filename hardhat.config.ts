@@ -37,7 +37,17 @@ export default {
       chainId: 1337,
       allowUnlimitedContractSize: false,
       blockGasLimit: 25000000
-    }
+    },
+    testnetBsc: {
+      url: "https://data-seed-prebsc-1-s1.binance.org:8545/",
+      chainId: 97,
+      gasPrice: 20000000000,
+      timeout: 30000,
+      accounts: {
+        mnemonic:
+          "",
+      },
+    },
   },
   solidity: {
     version: "0.6.12",
