@@ -3,3 +3,5 @@ types/
 coverage/
 artifacts/
 cache/
+
+.env

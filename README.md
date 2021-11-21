@@ -17,14 +17,7 @@ npx hardhat run scripts/deploy.js --network localhost
 
 ### deploy to binance smart chain testnet
 
-add to hardhat.config.ts a the mnemomic for a wallet with some testnet bnb
-
-```
-accounts: {
-        mnemonic:
-          "",
-      },
-```
+change .env.sample to .env, and fill in the BSC_TESTNET_MNEMOMIC with a wallet that has some testnet bnb. you can use https://testnet.binance.org/faucet-smart
 
 then run,
 

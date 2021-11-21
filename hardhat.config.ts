@@ -5,6 +5,8 @@ import "solidity-coverage";
 
 require('dotenv').config()
 
+const BSC_TESTNET_MNEMOMIC = process.env.BSC_TESTNET_MNEMOMIC;
+
 export default {
   namedAccounts: {
     deployer: 0,
@@ -44,8 +46,7 @@ export default {
       gasPrice: 20000000000,
       timeout: 30000,
       accounts: {
-        mnemonic:
-          "",
+        mnemonic: BSC_TESTNET_MNEMOMIC,
       },
     },
   },
